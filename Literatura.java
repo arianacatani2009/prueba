@@ -1,12 +1,13 @@
 public class Literatura {
     String tipo, autor;
     int anio;
-    public Literatura(String Tipo, String Autor, int Anio) {
+    public Literatura(String Tipo, String Autor, int Anio) {//ingresar los datos de cada uno de los libros
         this.anio = Anio;
         this.tipo = Tipo;
         this.autor = Autor;
 
     }
+    //getter and setter
     public java.lang.String getTipo() {
         return tipo;
     }
@@ -29,6 +30,7 @@ public class Literatura {
     public void setAnio(int anio) {
         this.anio = anio;
     }
+    //imprimir los datos
     public void imprimirdatos(){
         System.out.println(this.tipo);
         System.out.println(this.autor);
